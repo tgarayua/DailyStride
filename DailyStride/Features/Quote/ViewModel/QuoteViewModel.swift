@@ -16,7 +16,6 @@ class QuoteViewModel: ObservableObject {
     
     init(quoteService: QuoteService) {
         self.quoteService = quoteService
-        quoteService
     }
     
     func fetchQuote() {
