@@ -24,17 +24,6 @@ struct QuoteView: View {
                 .font(.title)
                 .foregroundColor(.gray)
                 .padding(.bottom)
-            
-            Button(action: {
-                viewModel.fetchQuote()
-            }) {
-                Text("New Quote")
-                    .font(.headline)
-                    .padding()
-                    .background(Color.blue)
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
-            }
         }
         .padding()
         .onAppear {

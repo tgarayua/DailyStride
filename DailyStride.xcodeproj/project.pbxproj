@@ -19,8 +19,6 @@
 		131AC5E12CC1CABD00E5CEC0 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 131AC5E02CC1CABD00E5CEC0 /* FirebaseFirestoreSwift */; };
 		131AC5E32CC1CF9300E5CEC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 131AC5E22CC1CF9200E5CEC0 /* GoogleService-Info.plist */; };
 		131AC5E92CC1D2C100E5CEC0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131AC5E82CC1D2C100E5CEC0 /* MainView.swift */; };
-		131AC5EB2CC1D30300E5CEC0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131AC5EA2CC1D30300E5CEC0 /* ProfileView.swift */; };
-		131AC5ED2CC1D4E800E5CEC0 /* ToDoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131AC5EC2CC1D4E800E5CEC0 /* ToDoItemsView.swift */; };
 		131AC5F02CC1D57400E5CEC0 /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131AC5EF2CC1D57400E5CEC0 /* NewItemView.swift */; };
 		131AC5F22CC1D60E00E5CEC0 /* ToDoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131AC5F12CC1D60E00E5CEC0 /* ToDoListItemView.swift */; };
 		131AC5F82CC402CA00E5CEC0 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131AC5F72CC402CA00E5CEC0 /* MainViewViewModel.swift */; };
@@ -37,6 +35,8 @@
 		131AC60E2CC40D7800E5CEC0 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131AC60D2CC40D7800E5CEC0 /* RegisterView.swift */; };
 		131AC6102CC40D9100E5CEC0 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131AC60F2CC40D9100E5CEC0 /* RegisterViewViewModel.swift */; };
 		131AC6122CC40E8500E5CEC0 /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131AC6112CC40E8500E5CEC0 /* NewItemViewViewModel.swift */; };
+		131AC62D2CC5DA9A00E5CEC0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131AC62C2CC5DA9A00E5CEC0 /* ProfileView.swift */; };
+		131AC62F2CC5DAC200E5CEC0 /* ProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131AC62E2CC5DAC200E5CEC0 /* ProfileViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,8 +50,6 @@
 		131AC5D92CC18B7C00E5CEC0 /* QuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewModel.swift; sourceTree = "<group>"; };
 		131AC5E22CC1CF9200E5CEC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		131AC5E82CC1D2C100E5CEC0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		131AC5EA2CC1D30300E5CEC0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		131AC5EC2CC1D4E800E5CEC0 /* ToDoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemsView.swift; sourceTree = "<group>"; };
 		131AC5EF2CC1D57400E5CEC0 /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
 		131AC5F12CC1D60E00E5CEC0 /* ToDoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemView.swift; sourceTree = "<group>"; };
 		131AC5F72CC402CA00E5CEC0 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
@@ -68,6 +66,8 @@
 		131AC60D2CC40D7800E5CEC0 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		131AC60F2CC40D9100E5CEC0 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		131AC6112CC40E8500E5CEC0 /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
+		131AC62C2CC5DA9A00E5CEC0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		131AC62E2CC5DAC200E5CEC0 /* ProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +155,7 @@
 		131AC5D42CB9F62A00E5CEC0 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				131AC6292CC5D9E900E5CEC0 /* Profile */,
 				131AC5F32CC1D62F00E5CEC0 /* LogIn */,
 				131AC5E42CC1D1F200E5CEC0 /* ToDoList */,
 				131AC5D52CB9F64600E5CEC0 /* Quote */,
@@ -207,8 +208,6 @@
 			isa = PBXGroup;
 			children = (
 				131AC5E82CC1D2C100E5CEC0 /* MainView.swift */,
-				131AC5EA2CC1D30300E5CEC0 /* ProfileView.swift */,
-				131AC5EC2CC1D4E800E5CEC0 /* ToDoItemsView.swift */,
 				131AC5EF2CC1D57400E5CEC0 /* NewItemView.swift */,
 				131AC5F12CC1D60E00E5CEC0 /* ToDoListItemView.swift */,
 				131AC5FD2CC4047400E5CEC0 /* ToDoListView.swift */,
@@ -260,6 +259,31 @@
 				131AC6012CC409D900E5CEC0 /* User.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		131AC6292CC5D9E900E5CEC0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				131AC62B2CC5DA4600E5CEC0 /* View */,
+				131AC62A2CC5DA3E00E5CEC0 /* ViewModel */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		131AC62A2CC5DA3E00E5CEC0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				131AC62E2CC5DAC200E5CEC0 /* ProfileViewViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		131AC62B2CC5DA4600E5CEC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				131AC62C2CC5DA9A00E5CEC0 /* ProfileView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,8 +369,8 @@
 				131AC60C2CC40C7100E5CEC0 /* TLButton.swift in Sources */,
 				131AC5C32CB9ED7B00E5CEC0 /* QuoteView.swift in Sources */,
 				131AC5F82CC402CA00E5CEC0 /* MainViewViewModel.swift in Sources */,
-				131AC5ED2CC1D4E800E5CEC0 /* ToDoItemsView.swift in Sources */,
 				131AC6022CC409D900E5CEC0 /* User.swift in Sources */,
+				131AC62F2CC5DAC200E5CEC0 /* ProfileViewViewModel.swift in Sources */,
 				131AC5E92CC1D2C100E5CEC0 /* MainView.swift in Sources */,
 				131AC5DA2CC18B7C00E5CEC0 /* QuoteViewModel.swift in Sources */,
 				131AC6082CC40B5100E5CEC0 /* Extensions.swift in Sources */,
@@ -359,11 +383,11 @@
 				131AC6002CC408D800E5CEC0 /* ToDoListViewModel.swift in Sources */,
 				131AC6042CC40A1400E5CEC0 /* ToDoListItem.swift in Sources */,
 				131AC5F22CC1D60E00E5CEC0 /* ToDoListItemView.swift in Sources */,
+				131AC62D2CC5DA9A00E5CEC0 /* ProfileView.swift in Sources */,
 				131AC60A2CC40BF100E5CEC0 /* HeaderView.swift in Sources */,
 				131AC5D82CC186B400E5CEC0 /* QuoteService.swift in Sources */,
 				131AC5D32CB9EF3400E5CEC0 /* Quote.swift in Sources */,
 				131AC6122CC40E8500E5CEC0 /* NewItemViewViewModel.swift in Sources */,
-				131AC5EB2CC1D30300E5CEC0 /* ProfileView.swift in Sources */,
 				131AC5C12CB9ED7B00E5CEC0 /* DailyStrideApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

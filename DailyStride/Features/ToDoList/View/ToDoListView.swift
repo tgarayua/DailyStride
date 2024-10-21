@@ -48,9 +48,9 @@ struct ToDoListView: View {
     }
 }
 
-struct ToDoListView_Previews: PreviewProvider {
-    static var previews: some View {
-        ToDoListView(userId: "96VNaiBN2dYRyDmf5xbL6M2ebat2")
-    }
-}
+//struct ToDoListView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ToDoListView(userId: "96VNaiBN2dYRyDmf5xbL6M2ebat2")
+//    }
+//}
 
